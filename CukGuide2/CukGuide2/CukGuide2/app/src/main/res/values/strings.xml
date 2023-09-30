@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Plogging Cluster</string>
+
+    <string name="tab_title1">리퀘스터</string>
+    <string name="tab_title2">플로터</string>
+    <string name="tab_title3">내정보</string>
+
+    <string name="write_today">사진 등록</string>
+
+    <string name="today_date_format">MM월 dd일</string>
+    <string name="today_date_string">O월 O일</string>
+    <string name="address_string">OO구 OO동</string>
+    <string name="input_contents_hint">내용 입력</string>
+    <string name="save_button">저장</string>
+    <string name="delete_button">삭제</string>
+    <string name="close_button">닫기</string>
+
+    <string name="graph1_title">기분별 비율</string>
+    <string name="graph2_title">요일별 기분</string>
+    <string name="graph3_title">기분 변화</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

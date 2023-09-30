@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/OwnIP"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="OwnIP" />
+
+
+    <EditText
+        android:id="@+id/editPeerIP"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:hint="editPeerIP"
+        />
+
+    <EditText
+        android:id="@+id/input_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="input_message" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START P2P Chat"
+        android:backgroundTint="#0F288D" />
+
+    <TextView
+        android:id="@+id/IP_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:stackFromBottom="false"
+        android:transcriptMode="alwaysScroll"></ListView>
+
+    <TextView
+        android:id="@+id/receive_message"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</LinearLayout>
